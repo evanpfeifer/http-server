@@ -17,7 +17,7 @@ Every new interaction that you have with the Amazon homepage will initiate new r
 # TCP Socket Address
 Any HTTP request or response needs directions to reach its destination. This is achieved by each HTTP message carrying a destination TCP socket address. Each socket address is comprised of both an IP adress and a port number.
 
-You may be wondering where the socket address is when you simply typed **www.amazon.com** into the address bar. The domain name is converted to an IP address through the Domain Name System (DNS), which can be thought of as the internet's phone book: it contains a directory of domain names and translates them to their IP addresses. The port number for your Amazon search is automatically set to 80 for http and 443 for https, so even though you did not exactly specify the port number, it is still there.
+You may be wondering where the socket address is when you simply typed **www.amazon.com** into the address bar. The domain name is converted to an IP address through the Domain Name System (DNS), which can be thought of as the internet's phone book: it contains a directory of domain names and translates them to their IP addresses. The port number for your Amazon search is automatically set to 80 for http and 443 for https, so even though you did not exactly specify the port number, it's still there.
 
 With this background knowledge of web servers in mind, we can begin construction of our server.
 

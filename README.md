@@ -8,7 +8,7 @@ In a less abstract example, consider typing https://www.amazon.com/ into your br
 
 <img width="866" alt="amazon" src="https://user-images.githubusercontent.com/50773875/58148391-cf932900-7c1b-11e9-9920-e7be721e12af.png">
 
-Obviously, the Amazon homepage will be rendered on your browser window. However, what essentially happens when you type in **www.amazon.com** into your adress bar, your browser will form a network message called an HTTP request. This request then travels to an Amazon computer with a web server running, which intercepts the request and responds with the html of the Amazon homepage. Your browser renders the html received from the Amazon server, which is what you see on your screen.
+Obviously, the Amazon homepage will be rendered on your browser window. However, what essentially happens when you type in **www.amazon.com** into your adress bar is that browser will form a network message called an HTTP request. This request then travels to an Amazon computer with a web server running, which intercepts the request and responds with the html of the Amazon homepage. Your browser renders the html received from the Amazon server, which is what you see on your screen.
 
 Every new interaction that you have with the Amazon homepage will initiate new requests and responses via HTTP.
 

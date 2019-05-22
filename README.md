@@ -2,7 +2,11 @@
 Here we will make a simple local HTTP web server for Mac OS X using Python 3.
 
 # What is an HTTP Server?
-The primary functions of an HTTP server, also known as a web server, are to listen for incoming HTTP (HyperText Transfer Protocol) requests on a specific TCP socket address and to then handle the request and send a response back to the client. 
+The primary functions of an HTTP server, also known as a web server, are to listen for incoming HTTP (HyperText Transfer Protocol) requests on a specific TCP socket address and to then handle the request and send a response back to the client.
+
+In a less abstract example, consider typing https://www.amazon.com/ into your browser's address bar.
+
+
 
 # First, make a simple HTML file:
 

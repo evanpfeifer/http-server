@@ -18,6 +18,7 @@ Now save this file as `index.html`
 
 # Building our server
 To create our simple web server in Python 3, we will need to import the modules `http.server` and `socketserver`
+
 This is the full code that is used for the server:
 ```
 import http.server

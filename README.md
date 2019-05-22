@@ -52,3 +52,31 @@ with socketserver.TCPServer(("", PORT), Handler) as httpd:
     httpd.serve_forever()
 ```
 Let's examine exactly how this works.
+
+As mentioned before, the web server is listening for requests on a specific TCP socket address. In addition to this, the web server must also be told how to handle an incoming request. The most simple handlers will serve static files.
+
+The `http.server.SimpleHTTPRequestHandler` is a simple handler that serves static files from the current directory and its subdirectories.
+
+For the **socketserver.TCPServer** class, **TCPServer** designates that the server will use TCP in order to send or receive messages.
+
+For our TCP Server to work, we need two things:
+1. The TCP socket address (IP address and port number)
+2. The handler
+
+In `socketserver.TCP(("", PORT), Handler)`, we can see that the TCP socket address is shown through `(IP address, port number)`
+
+Leaving the IP address as an empty string signifies that the server will be listening on all available IP addresses.
+
+As our variable `PORT` stores the value 8080, the server will be listening to incoming requests from the port number of 8080.
+
+We specify the handler through using the simple handler from `http.server.SimpleHTTPRequestHandler`
+
+The `serve_forever()` command is a way to initiate the server through the TCPServer instance so that it is listening to all incoming requests.
+
+Save this as `webserver.py` in the same directory as `index.html`, as the **SimpleHTTPRequestHandler** will by default search for a file named `index.html` in the current working directory.
+
+# Running the Server
+Open your terminal, and enter
+
+
+

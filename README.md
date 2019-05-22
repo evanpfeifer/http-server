@@ -21,7 +21,7 @@ You may be wondering where the socket address is when you simply typed **www.ama
 
 With this background knowledge of web servers in mind, we can begin construction of our server.
 
-# First, Make a simple HTML file:
+# First, Make a Simple HTML File:
 
 ```html
 <html>
@@ -36,7 +36,7 @@ With this background knowledge of web servers in mind, we can begin construction
 ```
 Now save this file as `index.html`
 
-# Building our server
+# Building Our Server
 To create our simple web server in Python 3, we will need to import the modules `http.server` and `socketserver`
 
 This is the full code that is used for the server:

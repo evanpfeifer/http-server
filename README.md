@@ -73,10 +73,20 @@ We specify the handler through using the simple handler from `http.server.Simple
 
 The `serve_forever()` command is a way to initiate the server through the TCPServer instance so that it is listening to all incoming requests.
 
-Save this as `webserver.py` in the same directory as `index.html`, as the **SimpleHTTPRequestHandler** will by default search for a file named `index.html` in the current working directory.
+Save this as `server.py` in the same directory as `index.html`, as the **SimpleHTTPRequestHandler** will by default search for a file named `index.html` in the current working directory.
 
 # Running the Server
-Open your terminal, and enter
+Open your terminal, and enter the directory in which `index.html` is stored by using the `cd` command. We will discuss an alternate Pythonic approach to this later.
+
+Once in the appropriate directory, using your terminal enter `python server.py` to open and run the server.
+
+<img width="417" alt="Screen Shot 2019-05-22 at 12 49 37 PM" src="https://user-images.githubusercontent.com/50773875/58200482-1884c500-7c90-11e9-9087-8fda78c11498.png">
+
+Open your browser, then type localhost:8080 in the address bar.
+
+<img width="545" alt="Screen Shot 2019-05-22 at 12 47 48 PM" src="https://user-images.githubusercontent.com/50773875/58200394-effccb00-7c8f-11e9-8816-6ca09a8dea32.png">
+
+
 
 
 

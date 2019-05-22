@@ -1,6 +1,5 @@
 # http-server
-Simple web server for Mac OS X using Python 3.
-Here we will make a simple local HTTP web server using Python 3.
+Here we will make a simple local HTTP web server for Mac OS X using Python 3.
 
 # First, make a simple HTML file:
 

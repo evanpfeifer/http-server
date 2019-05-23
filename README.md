@@ -86,6 +86,15 @@ Open your browser, then type localhost:8080 in the address bar.
 
 <img width="545" alt="Screen Shot 2019-05-22 at 12 47 48 PM" src="https://user-images.githubusercontent.com/50773875/58200394-effccb00-7c8f-11e9-8816-6ca09a8dea32.png">
 
+# Changing Directories in Python
+You can change directory directly in your Python code by adding this to the beginning of our code in `server.py`:
+
+```python
+import os
+os.chdir('/Users/evanpfeifer/Desktop')
+```
+
+
 
 
 

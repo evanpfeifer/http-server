@@ -95,7 +95,7 @@ os.chdir('/Users/evanpfeifer/Desktop')
 ```
 
 # A Simpler Method...
-As a closing note, therer is a (much) simpler way to create a web server in Python, one that actually doesn't require you to write any scripts.
+As a closing note, there is a (much) simpler way to create a web server in Python, one that actually doesn't require you to write any scripts.
 
 Simply go to your terminal at write in `python -m http.server 8080`
 

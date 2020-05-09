@@ -26,11 +26,11 @@ With this background knowledge of web servers in mind, we can begin construction
 ```html
 <html>
   <head>
-    <title>Simple Server</title>
+    <title>Python is awesome!</title>
   </head>
     <body>
         <h1>Firstname Lastname</h1>
-        <p>Your simple HTTP Server is working!</p>
+        <p>Congratulations! Your simple HTTP Server is working!</p>
     </body>
 </html>
 ```
@@ -98,6 +98,8 @@ os.chdir('/Users/evanpfeifer/Desktop')
 As a closing note, there is a (much) simpler way to create a web server in Python, one that actually doesn't require you to write any scripts.
 
 Simply go to your terminal at write in `python -m http.server 8080`
+
+Of course, this may be a whole lot simpler, but where's the fun in that!
 
 
 
